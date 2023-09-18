@@ -28,7 +28,7 @@ function calcular(event) {
     }
     else if (imc >= 30) {
 
-        resultado.innerHTML = '<br/> Seu resulado foi :' + imc.toFixed(2) + '<br/> Baleia!'
+        resultado.innerHTML = '<br/> Seu resulado foi :' + imc.toFixed(2) + '<br/> Voce esta muito acima do Peso!'
     }
     document.getElementById('peso').value ='';
     document.getElementById('altura').value =''; 
